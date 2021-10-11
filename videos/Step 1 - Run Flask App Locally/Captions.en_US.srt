@@ -1,0 +1,24 @@
+﻿1
+00:00:00,000 --> 00:00:01,733
+Let's take a look at our web app
+
+2
+00:00:01,733 --> 00:00:06,999
+The entry point of the python application is the application.py file
+
+3
+00:00:07,566 --> 00:00:07,632
+
+
+4
+00:00:07,633 --> 00:00:10,133
+Here is the Flask Template
+
+5
+00:00:10,133 --> 00:00:19,733
+for our python application. As you can see it has boilerplate code with nothing interesting yet but you can customize it as you like
+
+6
+00:00:20,400 --> 00:00:27,466
+Let's start up the python application and take a look at it running locally on our own computer
+

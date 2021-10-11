@@ -1,0 +1,36 @@
+﻿1
+00:00:00,000 --> 00:00:00,133
+
+
+2
+00:00:00,133 --> 00:00:04,833
+Let's create a Resource Group for our project
+
+3
+00:00:04,833 --> 00:00:09,399
+One way to create a Resource Group is to find
+
+4
+00:00:09,400 --> 00:00:19,866
+a resource via the Create a Resource button in Azure and just type it up, so this is showing me creating a resource
+
+5
+00:00:19,866 --> 00:00:26,866
+you can create it by that path, but an easier way is to just go back to your
+
+6
+00:00:26,866 --> 00:00:30,932
+home screen and to create a resource via the Resource Group
+
+7
+00:00:30,933 --> 00:00:38,366
+All I am doing here is just clicking on the Create a Resource button and I am going to give it a name
+
+8
+00:00:38,366 --> 00:00:48,766
+for our project. Just a side note you are not charged for just creating an empty Resource Group , so you don't get billed for
+
+9
+00:00:48,766 --> 00:00:52,632
+creating Resource Groups without any resources in them
+
