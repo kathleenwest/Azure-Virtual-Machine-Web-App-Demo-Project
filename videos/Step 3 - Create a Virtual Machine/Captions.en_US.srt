@@ -1,0 +1,144 @@
+﻿1
+00:00:05,800 --> 00:00:07,466
+Let's create a Resource
+
+2
+00:00:08,166 --> 00:00:11,366
+Virtual Machines are found under the Compute category
+
+3
+00:00:12,800 --> 00:00:18,100
+Make sure you select Virtual Machine and not Virtual Machine Scale Set, and then click Create
+
+4
+00:00:18,866 --> 00:00:20,899
+Let's walk through the wizard process
+
+5
+00:00:21,433 --> 00:00:24,133
+Select the Resource Group where to store our resource
+
+6
+00:00:24,133 --> 00:00:26,166
+Enter a valid virtual machine name
+
+7
+00:00:26,166 --> 00:00:28,266
+Select the size for the Virtual Machine
+
+8
+00:00:28,833 --> 00:00:30,999
+It may take a moment for the cost to load
+
+9
+00:00:31,433 --> 00:00:33,833
+Sort ascending to find the cheapest size
+
+10
+00:00:34,066 --> 00:00:36,966
+Review the Virtual Machine size for your project needs
+
+11
+00:00:36,966 --> 00:00:40,299
+Yes, it's true. You can resize the Virtual Machine after creating it.
+
+12
+00:00:40,500 --> 00:00:42,200
+Select the virtual machine size. 
+
+13
+00:00:43,166 --> 00:00:44,966
+Let's setup our administrator account
+
+14
+00:00:45,600 --> 00:00:48,666
+Select the password option. Enter a username and a password.
+
+15
+00:00:49,100 --> 00:00:51,333
+Let's look at the setup wizard for disks.
+
+16
+00:00:51,400 --> 00:00:54,466
+I don't need any changes here so I am going to look at the Networking tab. 
+
+17
+00:00:54,600 --> 00:00:57,833
+By default, Azure includes settings for a new virtual network.
+
+18
+00:00:57,833 --> 00:01:01,966
+If you have an existing virtual network, you can add this virtual machine to that network.
+
+19
+00:01:01,966 --> 00:01:05,666
+Make sure you have the inbound port rules turned on and click the Management tab. 
+
+20
+00:01:05,833 --> 00:01:09,699
+We don't need advanced monitoring so let's disable boot diagnostics. 
+
+21
+00:01:10,400 --> 00:01:13,266
+For this project, let's leave the rest as defaults. 
+
+22
+00:01:13,700 --> 00:01:15,400
+Let's take a look at advanced settings. 
+
+23
+00:01:15,500 --> 00:01:17,700
+For this project, let's leave the defaults. 
+
+24
+00:01:17,866 --> 00:01:21,699
+Click on tags to add custom tags. But's go ahead and Review and Create. 
+
+25
+00:01:25,466 --> 00:01:35,232
+Here you are going to see an estimate of the costs of your virtual machine and some additional terms and conditions to review.
+
+26
+00:01:35,433 --> 00:01:39,599
+Make sure you carefully review all the settings before you click on the create button.
+
+27
+00:01:39,700 --> 00:01:42,833
+Let's create the virtual machine and get this project started. 
+
+28
+00:01:45,200 --> 00:01:52,266
+It could take awhile to create a virtual machine. So here is a good idea. Go get a cheeseburger and eat one while you are waiting,
+
+29
+00:01:59,300 --> 00:02:02,766
+You'll receive a notification that your resource has been created. 
+
+30
+00:02:03,000 --> 00:02:04,766
+Click on Go To Resource
+
+31
+00:02:05,133 --> 00:02:11,933
+Let's take a look at the overview of our newly created and currently running virtual machine. 
+
+32
+00:02:13,200 --> 00:02:17,766
+Azure created a temporary public IP address for when our virtual mcahine is running.
+
+33
+00:02:18,966 --> 00:02:21,732
+Click on Stop to stop the virtual machine. 
+
+34
+00:02:21,833 --> 00:02:27,699
+Keep your project cheap and reduce costs. Make sure to stop your virtual machine when you are done working on it. 
+
+35
+00:02:27,700 --> 00:02:33,366
+It will take awhile to stop and the status will change to Deallocating
+
+36
+00:02:34,766 --> 00:02:41,232
+The final status should say "Stopped Deallocated" and you will now see that your public IP has disappeared. 
+
