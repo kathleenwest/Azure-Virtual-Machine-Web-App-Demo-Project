@@ -28,29 +28,30 @@ Record the resource group name since we will be using it later.
 
 ## Create a Virtual Machine
 
-1. Loging to the Azure portal. 
+1. Login to the Azure portal. 
 2. On the homepage, click "Create a resource"
 3. Select "Compute" from the category menu
 4. Select the "Virtual Machine" product and select Create to start the wizard process
 5. Create a Linux VM with the following details:
- - Subscription: This will vary for you. Should default to your main subscription.
- - Resource Group: `web-app-vm-project`
- - VM Name: `linux-vm-project`
- - Region: East US or a region closest to you that is available
- - Availability Options: Default option of "No infrastructure redundancy required" is fine here.
- - Image: Ubuntu Server (any version) but I'm going to use the latest version 18.04 LTS
- - Azure Spot instance: No
- - Size: Click on "Select Size" and select "Standard B1ls"
- - Authentication type: Password
- - Username: (any username you choose) `projectadmin`
- - Password: (any password you choose) `projectadmin|2021`
- - Inbound Port Rules: "Allow Select Ports" and make sure from the drop-down menu, 22 and 80 are selected
- - Monitoring: Disable boot diagnostics
+   - Subscription: This will vary for you. Should default to your main subscription.
+   - Resource Group: `web-app-vm-project`
+   - VM Name: `linux-vm-project`
+   - Region: East US or a region closest to you that is available
+   - Availability Options: Default option of "No infrastructure redundancy required" is fine here.
+   - Image: Ubuntu Server (any version) but I'm going to use the latest version 18.04 LTS
+   - Azure Spot instance: No
+   - Size: Click on "Select Size" and select "Standard B1ls"
+   - Authentication type: Password
+   - Username: (any username you choose) `projectadmin`
+   - Password: (any password you choose) `projectadmin|2021`
+   - Inbound Port Rules: "Allow Select Ports" and make sure from the drop-down menu, 22 and 80 are selected
+   - Monitoring: Disable boot diagnostics
 6. Click Review + Create and carefully review your virtual machine settings 
 7. Create your virtual machine (VM). This process may take awhile but a notification will inform you that your resource is created when it is ready.
 8. Take a look at your newly created and running resource.
-9. Note: We chose not to reserve a Public IP address. The one shown in the VM overview is temporary for only when the VM is running and will change the next time you start the VM.
-10. Stop the machine if your are done using it or continue to the next section.   
+9. Stop the machine if your are done using it or continue to the next section.   
+
+Note: We chose not to reserve a Public IP address. The one shown in the VM overview is temporary for only when the VM is running and will change the next time you start the VM.
 
 [![Watch the tutorial video](/images/CreateVirtualMachinePoster.jpg)](https://youtu.be/oKk8BR2s7Ho "Video Tutorial - How to Create a Virtual Machine")
 
