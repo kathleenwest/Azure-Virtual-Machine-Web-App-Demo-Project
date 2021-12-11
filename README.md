@@ -4,4 +4,4 @@
  
  Watch the video tutorials and follow step-by-step instructions to learn how to create your own starter web app running on an azure cloud virtual machine.
  
-[![Watch the tutorial video](images/RunFlaskPythonLocallyPoster.jpg)](https://youtu.be/vriPs8FYYSU "How to run Flask Python web app locally")
+[![Watch the tutorial video](/images/RunFlaskPythonLocallyPoster.jpg)](https://youtu.be/vriPs8FYYSU "How to run Flask Python web app locally")
