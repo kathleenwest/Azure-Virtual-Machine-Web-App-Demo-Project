@@ -6,9 +6,17 @@
 
 ## Running the Web App Locally
 
-Description
+First clone this repo to your project directory. 
 
-[![Watch the tutorial video](/images/RunFlaskPythonLocallyPoster.jpg)](https://youtu.be/vriPs8FYYSU "How to run Flask Python web app locally")
+Let's test and run our web app locally first. In this tutorial we are using Visual Studio Code (VSC) as our IDE. Navigate to the web-app directory in your VSC terminal window and run the python application. 
+
+`...\web-app>python application.py`
+
+Open a web browser and navigate to https://localhost:3000 to view the template Flask application running. 
+
+Press Ctrl + C to quit or close your VSC terminal window.
+
+[![Watch the tutorial video](/images/RunFlaskPythonLocallyPoster.jpg)](https://youtu.be/vriPs8FYYSU "Video Tutorial - How to run Flask Python web app locally")
 
 ## Create Azure Resources
 
