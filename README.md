@@ -18,26 +18,26 @@ Press Ctrl + C to quit or close your VSC terminal window.
 
 [![Watch the tutorial video](/images/RunFlaskPythonLocallyPoster.jpg)](https://youtu.be/vriPs8FYYSU "Video Tutorial - How to run Flask Python web app locally")
 
-## Create Azure Resources
+## Create Azure Resource Group
 
-Description
+Login into your Azure account and create a resource group for this project. Record the resource group name since we will be using it later.
 
-[![Watch the tutorial video](/images/CreateResourceGroupPoster.jpg)](https://youtu.be/7cv4tIqOJAo "How to Create a Resource Group")
+[![Watch the tutorial video](/images/CreateResourceGroupPoster.jpg)](https://youtu.be/7cv4tIqOJAo "Video Tutorial - How to Create a Resource Group")
 
 ## Create a Virtual Machine
 
 Description
 
-[![Watch the tutorial video](/images/CreateVirtualMachinePoster.jpg)](https://youtu.be/oKk8BR2s7Ho "How to Create a Virtual Machine")
+[![Watch the tutorial video](/images/CreateVirtualMachinePoster.jpg)](https://youtu.be/oKk8BR2s7Ho "Video Tutorial - How to Create a Virtual Machine")
 
 ## Access Virtual Machine and Transfer Web App
 
 Description
 
-[![Watch the tutorial video](/images/CopyFilesToVirtualMachinePoster.jpg)](https://youtu.be/6_ZMbPsve20 "How to Copy Files to a Virtual Machine")
+[![Watch the tutorial video](/images/CopyFilesToVirtualMachinePoster.jpg)](https://youtu.be/6_ZMbPsve20 "Video Tutorial - How to Copy Files to a Virtual Machine")
 
 ## Configure and Deploy Web Server
 
 Description
 
-[![Watch the tutorial video](/images/ConfigureandDeployWebServerPoster.jpg)](https://youtu.be/xZwO4P_xj9E "How to Configure and Deploy a Web Server")
+[![Watch the tutorial video](/images/ConfigureandDeployWebServerPoster.jpg)](https://youtu.be/xZwO4P_xj9E "Video Tutorial - How to Configure and Deploy a Web Server")
