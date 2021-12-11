@@ -6,7 +6,9 @@ Description of project here
 
 Description
 
-https://user-images.githubusercontent.com/28828668/145660263-a2bd9ff1-3190-4836-ac61-795caa317725.mp4
+<video width="320" height="240" controls>
+  <source type="video/mp4" src="https://user-images.githubusercontent.com/28828668/145660263-a2bd9ff1-3190-4836-ac61-795caa317725.mp4">
+</video>
 
 ## Create Azure Resources
 
