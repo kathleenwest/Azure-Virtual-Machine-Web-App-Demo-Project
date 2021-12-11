@@ -4,7 +4,16 @@
 
 Description
 
+video 1
 [![Watch the tutorial video](https://github.com/kathleenwest/Azure-Virtual-Machine-Web-App-Demo-Project/blob/7662b93e00467b756243fa5cef26b9889eddf25e/images/RunFlaskPythonLocallyPoster.jpg)](https://youtu.be/vriPs8FYYSU "How to run Flask Python web app locally")
+
+video 2
+
+<video width="320" height="240" controls poster="https://github.com/kathleenwest/Azure-Virtual-Machine-Web-App-Demo-Project/blob/7662b93e00467b756243fa5cef26b9889eddf25e/images/RunFlaskPythonLocallyPoster.jpg">
+  <source src="https://youtu.be/vriPs8FYYSU" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
 
 ## Create Azure Resources
 
