@@ -57,7 +57,24 @@ Note: We chose not to reserve a Public IP address. The one shown in the VM overv
 
 ## Access Virtual Machine and Transfer Web App
 
-Description
+1. In Visual Studio Code (VSC) create a terminal window in the directory of your project. 
+2. Login to azure through the terminal window.
+3. Login to Azure portal and find your virtual machine. Start your VM.
+4. Find and record your Public IP address from the azure portal VM Overview or type `az vm list-ip-addresses -g web-app-vm-project -n linux-vm-project` in your VSC terminal window to obtain your IP address
+5. Next, we're going to copy our web-app from our local machine to the VM home user directory using the secure copy utility command `scp -r ./web-app projectadmin@IPADDRESS:/home/projectadmin`
+6. Login with your credentials to the virtual machine to complete the secure copy.
+   - Username: (username you chosen) `projectadmin`
+   - Password: (password you chosen) `projectadmin|2021`
+
+NOTE: The first time you try connecting to the VM, you'll see a similar message to the one below and should answer 'yes' to permanently add the IP address to the list of known hosts.
+```
+The authenticity of host '52.191.135.139 (52.191.135.139)' can't be established.
+ECDSA key fingerprint is SHA256:7bBVTsYNImhXxAn+xscCHm/OkcodHZS615VSKO3GP8c.
+Are you sure you want to continue connecting (yes/no)?
+```
+7. Once the files have been copied to the VM, we can connect to the VM using secure shell `ssh projectadmin@IPADDRESS` and login with the same credentials
+8. Navigate to the web-app directory and `ls` contents to see that our files have transferred.
+9. Stop the virtual machine if you are done or continue to the next section. 
 
 [![Watch the tutorial video](/images/CopyFilesToVirtualMachinePoster.jpg)](https://youtu.be/6_ZMbPsve20 "Video Tutorial - How to Copy Files to a Virtual Machine")
 
