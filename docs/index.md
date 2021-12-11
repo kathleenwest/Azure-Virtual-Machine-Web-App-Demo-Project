@@ -4,6 +4,8 @@
 
 Description
 
+[![Watch the tutorial video](/images/RunFlaskPythonLocallyPoster.jpg)](https://youtu.be/vriPs8FYYSU "How to run Flask Python web app locally")
+
 ## Create Azure Resources
 
 Description
