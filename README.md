@@ -80,6 +80,23 @@ Are you sure you want to continue connecting (yes/no)?
 
 ## Configure and Deploy Web Server
 
-Description
+1. Start your virtual machine (VM) and record your public IP address
+2. In Visual Studio Code (VSC) open a terminal window and login to azure.
+3. SSH login to your VM in the terminal window `ssh projectadmin@IPADDRESS`
+   - Username: (username you chosen) `projectadmin`
+   - Password: (password you chosen) `projectadmin|2021`
+4. Update the VM package repository information `sudo apt-get -y update`
+5. Install the web server nginx and python which will run our web app on the server `sudo apt-get -y install nginx python3-venv`
+6. Setup the reverse proxy for our nginx web server
+   - Open a new terminal window and navigate to `/etc/nginx/sites-available`
+   - Unlink the existing default reverse proxy file `sudo unlink /etc/nginx/sites-enabled/default`
+   - Open up a new terminal window and secure copy our reverse-proxy.conf file to our home directory `scp -r reverse-proxy.conf projectadmin@IPADDRESS:/home/projectadmin`
+   - Switch back to our ssh terminal window (connected to the VM) and verify the file has been copied to the projectadmin home directory
+   - Move the reverse-proxy.conf `sudo mv reverse-proxy.conf /etc/nginx/sites-available`
+   - Navigate to the sites-available directory `cd /etc/nginx/sites-available`
+   - Verify the reverse-proxy.conf file is in the directory
+   - Link our proxy file to the sites-enabled `sudo ln -s /etc/nginx/sites-available/reverse-proxy.conf /etc/nginx/sites-enabled/reverse-proxy.conf`
+7. Restart nginx service `sudo service nginx restart`
+8. 
 
 [![Watch the tutorial video](/images/ConfigureandDeployWebServerPoster.jpg)](https://youtu.be/xZwO4P_xj9E "Video Tutorial - How to Configure and Deploy a Web Server")
