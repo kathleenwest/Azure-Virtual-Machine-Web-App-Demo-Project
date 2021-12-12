@@ -96,7 +96,21 @@ Are you sure you want to continue connecting (yes/no)?
    - Navigate to the sites-available directory `cd /etc/nginx/sites-available`
    - Verify the reverse-proxy.conf file is in the directory
    - Link our proxy file to the sites-enabled `sudo ln -s /etc/nginx/sites-available/reverse-proxy.conf /etc/nginx/sites-enabled/reverse-proxy.conf`
-7. Restart nginx service `sudo service nginx restart`
-8. 
+7. Restart the nginx service `sudo service nginx restart`
+8. Navigate to the web-app directory 
+9. Setup the python virtual environment `python3 -m venv ven`
+10. Activate the python environment `source venv/bin/activate`
+11. Upgrade pip in the virtual environment `pip install --upgrade pip`
+12. Install dependencies for our web-app project `pip install -r requirements.txt`
+13. Run the python web app `python application.py`
+14. Open a web browser and navigate to the public IP address of your virtual machine
+
+Voila! You have successfully created a Flask web application running on an azure virtual machine. 
+
+Congratulations!
 
 [![Watch the tutorial video](/images/ConfigureandDeployWebServerPoster.jpg)](https://youtu.be/xZwO4P_xj9E "Video Tutorial - How to Configure and Deploy a Web Server")
+
+## Cleanup
+
+Don't forget to stop your virtual machine after you are done playing with your project and delete your resoure group. 
