@@ -1,6 +1,6 @@
 # Azure Virtual Machine Web App Demo Project
  
- This is a tutorial azure cloud project that demonstrates how to install a basic web app on a virtual machine. We will use our azure account to creature a resource group and virtual machine. Then we will install and configure the virtual machine to run nginx and python web applications. Our web app is a flask template web application that is uploaded to our virtual machine and then configured to run with nginx.
+ This tutorial azure cloud project demonstrates how to install a basic web app on a virtual machine. We will use our azure account to creature a resource group and virtual machine. Then we will install and configure the virtual machine to run nginx web server and python. Our web app is a flask template and python web application that is uploaded to our virtual machine and then configured to run with nginx.
  
  Watch the video tutorials and follow step-by-step instructions to learn how to create your own starter web app running on an azure cloud virtual machine.
 
@@ -49,7 +49,7 @@ Record the resource group name since we will be using it later.
 6. Click Review + Create and carefully review your virtual machine settings 
 7. Create your virtual machine (VM). This process may take awhile but a notification will inform you that your resource is created when it is ready.
 8. Take a look at your newly created and running resource.
-9. Stop the machine if your are done using it or continue to the next section.   
+9. Stop the machine if you are done using it or continue to the next section.   
 
 Note: We chose not to reserve a Public IP address. The one shown in the VM overview is temporary for only when the VM is running and will change the next time you start the VM.
 
@@ -113,4 +113,4 @@ Congratulations!
 
 ## Cleanup
 
-Don't forget to stop your virtual machine after you are done playing with your project and delete your resoure group. 
+Don't forget to stop your virtual machine after you are done playing with your project and to delete your resource group. 
