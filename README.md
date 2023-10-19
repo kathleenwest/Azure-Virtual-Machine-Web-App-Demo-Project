@@ -76,7 +76,7 @@ Are you sure you want to continue connecting (yes/no)?
 8. Navigate to the web-app directory and `ls` contents to see that our files have transferred.
 9. Stop the virtual machine if you are done or continue to the next section. 
 
-[![Watch the tutorial video](/images/CopyFilesToVirtualMachinePoster.jpg)](https://youtu.be/6_ZMbPsve20 "Video Tutorial - How to Copy Files to a Virtual Machine")
+[![Watch the tutorial video](/images/CopyFilesToVirtualMachinePoster.jpg)](https://www.youtube.com/watch?v=KhKMpnzXEG8 "Video Tutorial - How to Copy Files to a Virtual Machine")
 
 ## Configure and Deploy Web Server
 
