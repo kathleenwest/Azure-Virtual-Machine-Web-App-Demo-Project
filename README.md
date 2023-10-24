@@ -53,7 +53,7 @@ Record the resource group name since we will be using it later.
 
 Note: We chose not to reserve a Public IP address. The one shown in the VM overview is temporary for only when the VM is running and will change the next time you start the VM.
 
-[![Watch the tutorial video](/images/CreateVirtualMachinePoster.jpg)](https://youtu.be/oKk8BR2s7Ho "Video Tutorial - How to Create a Virtual Machine")
+[![Watch the tutorial video](/images/CreateVirtualMachinePoster.jpg)](https://www.youtube.com/watch?v=m4oAQGtG5SA "Video Tutorial - How to Create a Virtual Machine")
 
 ## Access Virtual Machine and Transfer Web App
 
